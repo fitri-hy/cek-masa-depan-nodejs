@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mak Cunt | Dimasa Depan Kamu Akan ...</title>
+    <meta name="description" content="Mak Cunt adalah dukun profesional di seluruh dunia maya, Menerima ramalan nasib masa depan seseorang bedasarkan namanya secara online. ">
+	<meta name="keywords" content="game, makcunt, ralaman, masa depan">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://makcunt.velcel.app">
+	<meta name="author" content="I-As.Dev">
+	<link rel="icon" href="/logo.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        .typewriter {
+			overflow: hidden;
+            white-space: nowrap;
+            animation: typing 3s steps(40, end);
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <img class="h-screen w-full object-cover absolute -z-10" src="https://i.pinimg.com/originals/85/db/41/85db411e5bebff00b8a21f6d29d8c394.gif">
+    <div class="h-screen w-full flex items-center justify-center backdrop-blur-sm p-6">
+        <div class="bg-orange-300/70 py-9 px-6 rounded-lg shadow-lg border border-orange-300 shadow-lg max-w-md">
+            <h1 class="text-center text-orange-600 text-3xl font-extrabold">
+                Cek Nasib
+            </h1>
+            <p class="text-orange-600 px-6 text-center mt-2">
+                Mak Cunt adalah dukun profesional di seluruh dunia maya, Menerima ramalan nasib masa depan seseorang bedasarkan namanya secara online.
+            </p>
+            <p class="text-orange-600 px-6 text-center mt-4 text-xl font-semibold">
+                JAMINAN
+            </p>
+            <p class="text-orange-600 px-6 text-center mt-1">
+                100% Akurat & Nasib Terjamin
+            </p>
+            <form id="predictionForm" action="/predict" method="POST" class="w-full">
+                <div class="mt-6 flex flex-col justify-center items-center">
+                    <input class="p-2 rounded-lg text-white text-center focus:outline-none mt-2 border border-orange-600 bg-orange-600/50 placeholder-white" type="text" id="name" name="name" placeholder="Masukan nama Anda ..." required><br><br>
+                    <button type="submit" class="mt-4 px-4 py-2 rounded-lg bg-orange-600 text-white">Prediksi Nasib</button>
+                </div>
+            </form>
+        </div>
+        <div id="overlay" class="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-70 flex items-center justify-center hidden">
+			<div class="bg-orange-100 p-6 rounded-lg max-w-md">
+				<img class="w-20 h-20 m-auto mb-4" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/04de2e31234507.564a1d23645bf.gif">
+				<p class="font-semibold text-gray-600 text-center">Mak Cunt (Membaca Mantra)</p>
+				<div class="typewriter">
+					<p class="text-gray-600 text-center">
+						Wak linu main dordor ku panu tin huhu !!
+					</p>
+                </div>
+			<div>
+		</div>
+    </div>
+
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.getElementById('overlay').classList.remove('hidden');
+            setTimeout(function() {
+                event.target.submit();
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
