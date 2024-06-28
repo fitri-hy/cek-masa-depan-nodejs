@@ -17,7 +17,9 @@ function predictFuture(name) {
     `${name}, Dimasa depan kamu akan memiliki anak perempuan dari hasil wik wik di kebun singkong, tetaplah bertanggung jawab dan rawat anakmu agar tidak seperti mu.`,
     `${name}, Dimasa depan kamu akan mendapatkan pasangan yang cantik sekali, tapi sayang pada saat itu kamu tidak bisa melihat dikarenakan sebuah penyakit.`,
     `${name}, Dimasa depan kamu akan menjadi direktur di perusahaan besar, dan kekayaan melimpah, namun sayang setelah merasakan itu selama 7 hari kamu masuk penjara.`,
-    `${name}, Dimasa depan kamu akan menjadi pemulung, dan tinggal di bawah jalan tol, tetap bersyukur dan menerima apa adanya, jika tidak pilihan satu-satunya bunuh diri`
+    `${name}, Dimasa depan kamu akan menjadi pemulung, dan tinggal di bawah jalan tol, tetap bersyukur dan menerima apa adanya, jika tidak pilihan satu-satunya bunuh diri`,
+    `${name}, Dimasa depan tepatnya pada tahun 2028, kamu akan menjadi selebriti di dunia maya karena video viral dengan pasanganmu di gubuk pinggir sawah yang tak sengaja kamu unggah.`,
+    `${name}, Dimasa depan tepatnya di tahun 2032, kamu akan memenangkan kompetisi dan memecahkan rekor dunia pada perlombaan kentut terlama.`
   ];
   return predictions[Math.floor(Math.random() * predictions.length)];
 }
